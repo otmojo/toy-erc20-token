@@ -1,10 +1,8 @@
 # Toy ERC20 Token
 
-A minimal ERC20 token project built with Hardhat and OpenZeppelin.
+This is a simple but fully functional ERC20 token. Upon deployment, it mints a humorous initial supply controlled by the constant `ot`, built with Hardhat and OpenZeppelin.
 
-## Project Overview
 
-This is a simple but fully functional ERC20 token. Upon deployment, it mints a humorous initial supply controlled by the constant `ot`.
 
 Yes, the deployer receives exactly `ot × 10^decimals()` tokens.
 Because why not? :p
@@ -80,19 +78,6 @@ ToyToken deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 Initial supply: 1000 × 10¹⁸ (because ot = 1000)
 ```
 
-## The  "ot" Constant
-
-In `contracts/ToyToken.sol`:
-
-```solidity
-uint256 public constant ot = 1000;
-
-constructor() ERC20("ToyToken", "TOY") {
-    _mint(msg.sender, ot * 10 ** decimals());
-}
-```
-<img src="https://github.com/otmojo/toy-erc20-token/blob/main/scripts/verifyLocalResult.png" alt="Image 1" width="500" />
-
 
 ## Testing
 
@@ -106,6 +91,7 @@ Run with:
 ```bash
 npm test
 ```
+<img src="https://github.com/otmojo/toy-erc20-token/blob/main/scripts/verifyLocalResult.png" alt="Image 1" width="500" />
 
 ## Security Notes
 
