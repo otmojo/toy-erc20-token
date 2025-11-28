@@ -1,6 +1,6 @@
 # Toy ERC20 Token
 
-A minimal ERC20 token project built with Hardhat and OpenZeppelin — perfect for learning, testing, or just having fun on local/test networks.
+A minimal ERC20 token project built with Hardhat and OpenZeppelin.
 
 ## Project Overview
 
