@@ -80,7 +80,7 @@ ToyToken deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 Initial supply: 1000 × 10¹⁸ (because ot = 1000)
 ```
 
-## The Legendary "ot" Constant
+## The  "ot" Constant
 
 In `contracts/ToyToken.sol`:
 
@@ -91,8 +91,8 @@ constructor() ERC20("ToyToken", "TOY") {
     _mint(msg.sender, ot * 10 ** decimals());
 }
 ```
+<img src="https://github.com/otmojo/toy-erc20-token/blob/main/scripts/verifyLocalResult.png" alt="Image 1" width="500" />
 
-This gives the deployer exactly **1000 whole tokens** (1,000 × 10¹⁸ with 18 decimals), which is both readable and extremely memeable.
 
 ## Testing
 
