@@ -5,6 +5,7 @@ This is a simple but fully functional ERC20 token. Upon deployment, it mints a h
 
 
 Yes, the deployer receives exactly `ot × 10^decimals()` tokens.
+
 Because why not? :p
 
 ## Features
