@@ -95,7 +95,7 @@ npm test
 
 ## Security Notes
 
-- This is a toy project — educational use only
+- This is educational use only
 - Never use Hardhat's default private keys on mainnet
 - Always audit code before mainnet deployment
 - Keep your `.env` out of git (already in `.gitignore`)
