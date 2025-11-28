@@ -92,6 +92,9 @@ Run with:
 ```bash
 npm test
 ```
+
+You will see:
+
 <img src="https://github.com/otmojo/toy-erc20-token/blob/main/scripts/verifyLocalResult.png" alt="Image 1" width="500" />
 
 ## Security Notes
